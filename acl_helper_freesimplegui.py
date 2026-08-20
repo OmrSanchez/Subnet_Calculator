@@ -44,6 +44,8 @@ def name_acl(acl_name, acl_type):
 def build_remark(user_text):
     return f"remark *******  {user_text}  *********"
 
+sg.theme("SystemDefault1")
+
 rules = [[sg.Text("Rule Order")]]
 preview = [[sg.Multiline("Name your ACL and add rules..", disabled=True, size=(60,20), key="--PREVIEW--")]]
 
