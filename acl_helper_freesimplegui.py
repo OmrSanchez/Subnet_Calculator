@@ -83,7 +83,7 @@ display_layout = [[sg.Column(layout=preview)]]
 
 editing_column = sg.Column(editing_layout)
 display_column = sg.Column(display_layout)
-layout = [[sg.Push(), sg.Text("ACL HELPER"), sg.Push()],
+layout = [[sg.Push(), sg.Text("ACL HELPER", font="bold 25"), sg.Push()],
           [editing_column, display_column]
         ]
 
